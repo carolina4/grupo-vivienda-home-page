@@ -1,0 +1,107 @@
+@import '../../node_modules/tachyons/css/tachyons.min.css';
+
+//colors
+$primary: #b2bc5a;
+$secondary: #e1c442;
+$white: #fff;
+
+$main-font-color: #444;
+
+p, h1, h2, h3, h4, h5, h6, div, a {
+  font-family: 'Barlow Condensed', 'Helvetica', sans-serif;
+  letter-spacing: 1px;
+  color: $main-font-color;
+}
+
+p {
+  font-size: 20px;
+}
+
+.pbc {
+  background-color: $primary;
+}
+
+.center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn {
+  text-align: center;
+  color: $white;
+  cursor: pointer;
+  display: block;
+  line-height: 28px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-btn {
+  transition-property: all;
+  transition-duration: .6s;
+  transition-timing-function: ease;
+}
+
+.navbar-btn:hover,
+.navbar-btn:active,
+.selected {
+  color: $primary;
+}
+
+.navbar-btn:after {
+  backface-visibility: hidden;
+  border: 1px solid rgba(#fff, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+
+.navbar-btn:hover:after,
+.selected:after {
+  backface-visibility: hidden;
+  border-color: $primary;
+  color: $primary;
+  transition: width 350ms ease-in-out;
+  width: 100%;
+}
+
+.h-separator {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+
+.h-separator:before,
+.h-separator:after {
+  flex-grow: 1;
+  height: 1px;
+  content: '\a0';
+  background-color: #777;
+  position: relative;
+  top: 0.5em;
+}
+
+.h-separator:before {
+  margin-right: 28px;
+}
+
+.h-separator:after {
+  margin-left: 28px;
+}
+
+@media only screen and (min-width: 600px) {
+  #hero-banner {
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #hero-banner {
+    height: 450px;
+  }
+}
