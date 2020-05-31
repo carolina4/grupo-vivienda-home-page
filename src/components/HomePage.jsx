@@ -44,7 +44,7 @@ function HomePage() {
   return (
     <div className="w-100">
       <HeroBanner img={photo_family_1} />
-      <div className="center pt4 ph3" style={{ maxWidth: '72rem' }}>
+      <div className="center pt4 ph3" style={{ maxWidth: '72rem', fontSize: '20px' }}>
         <div className="tc center mw6-ns mb5">
           <h1>GRUPO VIVIENDA</h1>
           <h2>Construyendo Sonrisas</h2>
