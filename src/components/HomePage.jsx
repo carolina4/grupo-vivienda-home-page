@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroBanner from './HeroBanner';
-import ColorBanner from './ColorBanner';
+import FacebookBanner from './FacebookBanner';
 
 import photo_family_1 from '../assets/family.jpg';
 import ideal from '../assets/ideal.png';
@@ -10,7 +10,6 @@ import constructora from '../assets/constructora.png';
 import prefa from '../assets/prefa.png';
 import inmobiliaria from '../assets/inmobiliaria.png';
 import logistica from '../assets/logistica.png';
-import facebook from '../assets/facebook.png';
 
 function SectionElement({ image, backgroundColor, title, children }) {
   return(
@@ -88,13 +87,7 @@ function HomePage() {
         </Section>
       </div>
 
-      <ColorBanner color="#b2bc5a" className="mv4">
-        <h2 className="white-80">¿DESEA CONOCER MÁS DE NUESTROS SERVICIOS?</h2>
-        <h3 className="white-80">Síganos en nuestro Facebook</h3>
-        <a href="https://www.facebook.com/bonodevivienda/">
-          <img src={facebook} alt="fb icon" style={{ width: "65px" }} />
-        </a>
-      </ColorBanner>
+      <FacebookBanner />
     </div>
   );
 }

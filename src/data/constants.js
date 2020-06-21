@@ -3,9 +3,40 @@ import casa2 from '../assets/casa2.jpg';
 import casa3 from '../assets/casa3.jpg';
 import casa4 from '../assets/casa4.jpg';
 
-import confort from '../assets/confort-sm.jpg';
-import hab3d from '../assets/hab-3d-sm.jpg';
-import habPlus from '../assets/hab-plus-sm.jpg';
+import confortMini from '../assets/confort-sm.jpg';
+import hab3dMini from '../assets/hab-3d-sm.jpg';
+import habPlusMini from '../assets/hab-plus-sm.jpg';
+import discapacidadPlanta from '../assets/discapacidad/planta.png';
+import discapacidadFachada from '../assets/discapacidad/fachada.png';
+
+import prefa1Planta from '../assets/prefas/modelo1/planta.png';
+import prefa1Fachada from '../assets/prefas/modelo1/fachada.png';
+import prefa2Planta from '../assets/prefas/modelo2/planta.png';
+import prefa2Fachada from '../assets/prefas/modelo2/fachada.png';
+import prefa3Planta from '../assets/prefas/modelo3/planta.png';
+import prefa3Fachada from '../assets/prefas/modelo3/fachada.png';
+import prefa4Planta from '../assets/prefas/modelo4/planta.png';
+import prefa4Fachada from '../assets/prefas/modelo4/fachada.png';
+import prefa5Planta from '../assets/prefas/modelo5/planta.png';
+import prefa5Fachada from '../assets/prefas/modelo5/fachada.png';
+import prefa6Planta from '../assets/prefas/modelo6/planta.png';
+import prefa6Fachada from '../assets/prefas/modelo6/fachada.png';
+import prefa7Planta from '../assets/prefas/modelo7/planta.png';
+import prefa7Fachada from '../assets/prefas/modelo7/fachada.png';
+import prefa8Planta from '../assets/prefas/modelo8/planta.png';
+import prefa8Fachada from '../assets/prefas/modelo8/fachada.png';
+import prefa9Planta from '../assets/prefas/modelo9/planta.png';
+import prefa9Fachada from '../assets/prefas/modelo9/fachada.png';
+import prefa10Planta from '../assets/prefas/modelo10/planta.png';
+import prefa10Fachada from '../assets/prefas/modelo10/fachada.png';
+import prefa11Planta from '../assets/prefas/modelo1/planta.png';
+import prefa11Fachada from '../assets/prefas/modelo1/fachada.png';
+import prefa12Planta from '../assets/prefas/modelo12/planta.png';
+import prefa12Fachada from '../assets/prefas/modelo12/fachada.png';
+import prefa13Planta from '../assets/prefas/modelo13/planta.png';
+import prefa13Fachada from '../assets/prefas/modelo13/fachada.png';
+import prefa14Planta from '../assets/prefas/modelo14/planta.png';
+import prefa14Fachada from '../assets/prefas/modelo14/fachada.png';
 
 export const bonos = [
   {
@@ -30,15 +61,15 @@ export const bonos = [
         <div class="flex flex-wrap">
           <div>
             <h3 class="mb1">Modelo Confort</h3>
-            <img src=${confort} height=230 />
+            <img src=${confortMini} height=230 />
           </div>
           <div>
             <h3 class="mb1">Habitad plus</h3>
-            <img src=${habPlus} height=230 />
+            <img src=${habPlusMini} height=230 />
           </div>
           <div>
             <h3 class="mb1">Habitad 3D</h3>
-            <img src=${hab3d} height=230 />
+            <img src=${hab3dMini} height=230 />
           </div>
         </div>
       </div>`,
@@ -149,6 +180,16 @@ export const bonos = [
             Ser costarricense o tener una situación de residencia legalizada.
           </li>
         </ol>
+        <div class="flex flex-wrap justify-between">
+          <div>
+            <h3 class="mb1">Fachada</h3>
+            <img src=${discapacidadFachada} height=120 />
+          </div>
+          <div>
+            <h3 class="mb1">Planta</h3>
+            <img src=${discapacidadPlanta} height=210 />
+          </div>
+        </div>
       </div>`,
   },
   {
@@ -198,6 +239,16 @@ export const bonos = [
         <p>
           Duración del trámite: de 3 a 6 meses
         </p>
+        <div class="flex flex-wrap justify-between">
+          <div>
+            <h3 class="mb1">Fachada</h3>
+            <img src=${discapacidadFachada} height=120 />
+          </div>
+          <div>
+            <h3 class="mb1">Planta</h3>
+            <img src=${discapacidadPlanta} height=220 />
+          </div>
+        </div>
       </div>`,
   },
   {
@@ -256,8 +307,81 @@ export const bonos = [
         </ol>
         <p>
           El consejo es que se acerque a la oficina de Grupo Vivienda o llamen a el numero 2685-4132
-          para que le apliquen el estudio correspondiente con base en sus ingresos.
+          para que le aplique el estudio correspondiente con base en sus ingresos.
         </p>
       </div>`,
+  },
+];
+
+export const prefas = [
+  {
+    name: "Modelo 1 - 57m2",
+    fachada: prefa1Fachada,
+    planta: prefa1Planta,
+  },
+  {
+    name: "Modelo 2 - 54m2",
+    fachada: prefa2Fachada,
+    planta: prefa2Planta,
+  },
+  {
+    name: "Modelo 3 - 90m2",
+    fachada: prefa3Fachada,
+    planta: prefa3Planta,
+  },
+  {
+    name: "Modelo 4 - 90m2",
+    fachada: prefa4Fachada,
+    planta: prefa4Planta,
+  },
+  {
+    name: "Modelo 5 - 85m2",
+    fachada: prefa5Fachada,
+    planta: prefa5Planta,
+  },
+  {
+    name: "Modelo 6 - 75m2",
+    fachada: prefa6Fachada,
+    planta: prefa6Planta,
+  },
+  {
+    name: "Modelo 7 - 53m2",
+    fachada: prefa7Fachada,
+    planta: prefa7Planta,
+  },
+  {
+    name: "Modelo 8 - 54m2",
+    fachada: prefa8Fachada,
+    planta: prefa8Planta,
+  },
+  {
+    name: "Modelo 9 - 60m2",
+    fachada: prefa9Fachada,
+    planta: prefa9Planta,
+  },
+  {
+    name: "Modelo 10 - 80m2",
+    fachada: prefa10Fachada,
+    planta: prefa10Planta,
+  },
+  {
+    name: "Modelo 11 - 98m2",
+    fachada: prefa11Fachada,
+    planta: prefa11Planta,
+  },
+  {
+    name: "Modelo 12 - 56m2",
+    fachada: prefa12Fachada,
+    planta: prefa12Planta,
+  },
+  {
+    name: "Modelo 13 - 90m2",
+    fachada: prefa13Fachada,
+    planta: prefa13Planta,
+  },
+  {
+    name: "Modelo 14 - 80m2",
+    fachada: prefa14Fachada,
+    planta: prefa14Planta,
   },
 ];
