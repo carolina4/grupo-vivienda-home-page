@@ -246,7 +246,7 @@ export const bonos = [
           </div>
           <div>
             <h3 class="mb1">Planta</h3>
-            <img src=${discapacidadPlanta} height=220 />
+            <img src=${discapacidadPlanta} height=210 />
           </div>
         </div>
       </div>`,
@@ -315,73 +315,73 @@ export const bonos = [
 
 export const prefas = [
   {
-    name: "Modelo 1 - 57m2",
-    fachada: prefa1Fachada,
-    planta: prefa1Planta,
-  },
-  {
-    name: "Modelo 2 - 54m2",
-    fachada: prefa2Fachada,
-    planta: prefa2Planta,
-  },
-  {
-    name: "Modelo 3 - 90m2",
-    fachada: prefa3Fachada,
-    planta: prefa3Planta,
-  },
-  {
-    name: "Modelo 4 - 90m2",
-    fachada: prefa4Fachada,
-    planta: prefa4Planta,
-  },
-  {
-    name: "Modelo 5 - 85m2",
-    fachada: prefa5Fachada,
-    planta: prefa5Planta,
-  },
-  {
-    name: "Modelo 6 - 75m2",
-    fachada: prefa6Fachada,
-    planta: prefa6Planta,
-  },
-  {
-    name: "Modelo 7 - 53m2",
+    name: "53m2",
     fachada: prefa7Fachada,
     planta: prefa7Planta,
   },
   {
-    name: "Modelo 8 - 54m2",
+    name: "54m2",
+    fachada: prefa2Fachada,
+    planta: prefa2Planta,
+  },
+  {
+    name: "54m2",
     fachada: prefa8Fachada,
     planta: prefa8Planta,
   },
   {
-    name: "Modelo 9 - 60m2",
-    fachada: prefa9Fachada,
-    planta: prefa9Planta,
-  },
-  {
-    name: "Modelo 10 - 80m2",
-    fachada: prefa10Fachada,
-    planta: prefa10Planta,
-  },
-  {
-    name: "Modelo 11 - 98m2",
-    fachada: prefa11Fachada,
-    planta: prefa11Planta,
-  },
-  {
-    name: "Modelo 12 - 56m2",
+    name: "56m2",
     fachada: prefa12Fachada,
     planta: prefa12Planta,
   },
   {
-    name: "Modelo 13 - 90m2",
+    name: "57m2",
+    fachada: prefa1Fachada,
+    planta: prefa1Planta,
+  },
+  {
+    name: "60m2",
+    fachada: prefa9Fachada,
+    planta: prefa9Planta,
+  },
+  {
+    name: "75m2",
+    fachada: prefa6Fachada,
+    planta: prefa6Planta,
+  },
+  {
+    name: "80m2",
+    fachada: prefa10Fachada,
+    planta: prefa10Planta,
+  },
+  {
+    name: "80m2",
+    fachada: prefa14Fachada,
+    planta: prefa14Planta,
+  },
+  {
+    name: "85m2",
+    fachada: prefa5Fachada,
+    planta: prefa5Planta,
+  },
+  {
+    name: "90m2",
+    fachada: prefa3Fachada,
+    planta: prefa3Planta,
+  },
+  {
+    name: "90m2",
+    fachada: prefa4Fachada,
+    planta: prefa4Planta,
+  },
+  {
+    name: "90m2",
     fachada: prefa13Fachada,
     planta: prefa13Planta,
   },
   {
-    name: "Modelo 14 - 80m2",
-    fachada: prefa14Fachada,
-    planta: prefa14Planta,
+    name: "98m2",
+    fachada: prefa11Fachada,
+    planta: prefa11Planta,
   },
 ];

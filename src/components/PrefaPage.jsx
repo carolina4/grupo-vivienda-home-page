@@ -16,7 +16,7 @@ function PrefaPage() {
         <div>
           {prefas.map((prefa, index) => (
             <div key={`prefa-${index}`} className="mb4">
-              <h3>{prefa.name}</h3>
+              <h3>Modelo {index + 1} - {prefa.name}</h3>
               <div className="cf">
                 <div className="fl w-100 w-50-l mb3">
                   <img src={prefa.fachada} alt={`Fachada ${prefa.name}`} />
