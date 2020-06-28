@@ -11,7 +11,9 @@ function Footer() {
       <img src={logo} alt="Logo" style={{ width: '140px' }} />
       <div className="mb3 b">@Grupo Vivienda - Costa Rica - Derechos reservados</div>
       <div className="mb3">HORARIO DE ATENCION: LUNES A VIERNES DE 8 A 5 Y SABADOS DE 8 A 12 MEDIO DIA</div>
-      <div className="mb3 i">Teléfono: +506 2685-4132</div>
+      <div className="i">Teléfono: +506 2685-4132</div>
+      <div className="i">WhatsApp: +506 8791-4444</div>
+      <div className="mb3 i">Correo: INFO@GRUPOVIVIENDA.COM</div>
       <div className="w4 flex justify-between">
         <a href="tel:26854132" className="black">
           <FontAwesomeIcon icon={faPhone} size="lg" />

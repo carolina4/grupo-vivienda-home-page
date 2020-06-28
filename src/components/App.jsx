@@ -8,7 +8,9 @@ import {
 import HomePage from './HomePage';
 import PrefaPage from './PrefaPage';
 import BonoPage from './BonoPage';
+import ContactPage from './ContactPage';
 import NotFoundPage from './NotFoundPage';
+
 import Navbar from './Navbar';
 import Footer from './Footer';
 
@@ -27,6 +29,9 @@ function App() {
             </Route>
             <Route exact path="/prefa">
               <PrefaPage />
+            </Route>
+            <Route exact path="/contacto">
+              <ContactPage />
             </Route>
             <Route exact path="/">
               <HomePage />

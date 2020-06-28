@@ -26,6 +26,10 @@ function Navbar({ location }) {
     {
       title: "Prefa Vivienda",
       url: "/prefa"
+    },
+    {
+      title: "Contáctenos",
+      url: "/contacto"
     }
   ];
 
@@ -47,7 +51,7 @@ function Navbar({ location }) {
             </div>
           </Link>
           <div>
-            <div className="dn flex-ns">
+            <div className="dn flex-l">
               {pages.map((page, iter) => (
                 <Link
                   to={page.url}
@@ -58,7 +62,7 @@ function Navbar({ location }) {
                 </Link>
               ))}
             </div>
-            <div className="dn-ns">
+            <div className="dn-l">
               <Button onClick={toggleDrawer}>
                 <FontAwesomeIcon icon={faBars} className="white" size="lg" />
               </Button>
