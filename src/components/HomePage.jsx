@@ -80,7 +80,7 @@ function HomePage() {
             Agencia de bienes raíces encargadas de facilitar la adquisición de lotes para bono
             crédito y para proyectos de vivienda.
           </SectionElement>
-          <SectionElement image={logistica} backgroundColor="#699bd0" title="Logística Vivienda">
+          <SectionElement image={logistica} backgroundColor="#699bd0" title="CEDI Vivienda">
             Distribución, por medio de una flotilla propia, de las casas prefabricadas y de los
             materiales de construcción.
           </SectionElement>

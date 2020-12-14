@@ -24,21 +24,11 @@ function App() {
 
         <div style={{ paddingTop: '80px' }}>
           <Switch>
-            <Route exact path="/bono">
-              <BonoPage />
-            </Route>
-            <Route exact path="/prefa">
-              <PrefaPage />
-            </Route>
-            <Route exact path="/contacto">
-              <ContactPage />
-            </Route>
-            <Route exact path="/">
-              <HomePage />
-            </Route>
-            <Route default>
-              <NotFoundPage />
-            </Route>
+            <Route exact path="/bono" component={BonoPage} />
+            <Route exact path="/prefa" component={PrefaPage} />
+            <Route exact path="/contacto" component={ContactPage} />
+            <Route exact path="/" component={HomePage} />
+            <Route component={NotFoundPage} />
           </Switch>
         </div>
 

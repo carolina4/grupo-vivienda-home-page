@@ -1,6 +1,7 @@
 import React from 'react';
 import { TextField, Button } from '@material-ui/core';
 import { withFormik } from 'formik';
+import axios from 'axios';
 
 function ContactForm({
   values,
@@ -100,6 +101,15 @@ const initialValues = {
 
 const handleSubmit = (values, actions) => {
   console.log(values);
+  const API_PATH = 'http://localhost:3002/';
+  axios({
+    method: 'post',
+    url: `${API_PATH}`,
+    headers: { 'content-type': 'application/json' },
+    data: values
+  }).then(result => {
+    console.log(result.data.sent);
+  });
 };
 
 export default withFormik({
